@@ -43,6 +43,7 @@ const bakedTexture = textureLoader.load(
 
 bakedTexture.flipY = false;
 bakedTexture.colorSpace = THREE.SRGBColorSpace;
+bakedTexture.minFilter = THREE.LinearFilter;
 
 // material
 const bakedMaterial= new THREE.MeshBasicMaterial({
